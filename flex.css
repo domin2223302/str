@@ -1,0 +1,21 @@
+body{
+    background: url(back.jpg) fixed no-repeat center center/cover;
+   
+    
+
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+div{ 
+    border-radius: 30px;
+    margin: 10px;
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 200;
+}

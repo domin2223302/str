@@ -1,0 +1,111 @@
+body{
+    background: url(back.jpg) fixed no-repeat center center/cover;
+    margin: 0;
+}
+
+.maint{
+    display: grid;
+    place-items: center;
+    height: 1000px;
+    z-index: 10;
+}
+
+
+
+.txt{
+    
+    position: sticky;
+    top: 10em;
+    justify-content: center;
+    place-items: center;
+    width: 200px;
+    height: 100px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    border: red solid 1px;
+}
+
+.maincon{
+    
+}
+
+.navi{
+    z-index: 20;
+    top: 0.3em;
+    position: sticky;
+    display: flex;
+    border: gray solid 2px;
+    border-radius: 40px;
+    height: 30px;
+    
+}
+
+.nav1{
+   margin: 10px;
+    background-color: aqua;
+    flex-grow: 1;
+    border-radius: 30px;
+}
+
+.nav1:hover{
+    transition-delay: 0.2s;
+    transform: scale(1.1);
+}
+
+.contenier {
+    display: flex;
+    border: gray solid 2px;
+}
+
+.cards1, .cards2, .cards3, .cards4, .cards5{
+flex: 1;
+cursor: pointer;
+width: 200px;
+height: 400px;
+transition: flex 0.3s ease-in-out; /* Длительность перехода и эффект */
+transition-delay: 0.2s; /* Задержка перед началом анимации */
+}   
+
+.con2{
+    border: gray solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.fli1, .fli2, .fli3, .fli4, .fli5{
+    border-radius: 30px;
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 200;
+    border: 1px solid gray;
+    backdrop-filter: blur(8px);
+}
+
+.fli1:hover, .fli2:hover, .fli3:hover, .fli4:hover, .fli5:hover{
+
+   transform: scale(0.98);
+    transition: flex 0.7s ease-in-out;
+    transition-delay: 0.7s ;
+}
+
+.cards1:hover, .cards2:hover, .cards3:hover, .cards4:hover, .cards5:hover {
+    flex: 3;
+}
+.cards1{
+    background: url('animm.jpg') no-repeat center center/cover;
+}
+.cards2{
+background: url('guitar.jpg') no-repeat center center/cover;
+}
+.cards3{
+    background: url('proo.jpg') no-repeat center center/cover;
+}
+.cards4{
+    background: url('acccc.jpg') no-repeat center center/cover;
+}
+.cards5{
+    background: url('pir.jpg') no-repeat center center/cover;
+}
+
